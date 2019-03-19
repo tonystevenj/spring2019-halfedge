@@ -106,7 +106,7 @@ public class Main {
 		}
 		halfEdges = new HalfEdge [halfEdgesArray.size()];
 		halfEdgesArray.toArray(halfEdges); 
-		/**计算伽马（X）*/
+		/**计算伽马(X)*/
 		int EulerNum;
 		EulerNum = points.length+ faces.length - halfEdges.length/2;
 		/**计算高斯曲率*/
