@@ -99,7 +99,7 @@ public class Main {
 		HalfEdge[] halfEdges= new HalfEdge[faces.length*3];
 		
 		ArrayList<HalfEdge> halfEdgesArray = new ArrayList<>();
-		for(int i=0; i<faces.length; i++) {
+		for(int i=0; i<faces.length; i++) {  
 			halfEdgesArray.add(faces[i].e1);
 			halfEdgesArray.add(faces[i].e2);
 			halfEdgesArray.add(faces[i].e3);
